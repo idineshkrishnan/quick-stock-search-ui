@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+#QuickStockSearch UI.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The QuickStockSeach UI is an user interface for QuickStockSearch application, this is built using react framework.
 
-## Available Scripts
+###Features
 
-In the project directory, you can run:
+* Search Stock/Company
+* Get the details for stock and company based on the symbol value.
+* Shown alert if any error thrown.
+* Search box will show the possible company/stock name.
 
-### `yarn start`
+###Software or component requirement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Node JS
+* React Framework
+* NPM
+* Back-End or Facade API should run with port(8001), `http://localhost:8001`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**NOTE:** *Without back-end or facade API, application will be error thrown or stuck*
 
-### `yarn test`
+###How to run this application?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Please follow the below steps to run this application.
 
-### `yarn build`
+* Checkout this repository and navigate to folder (quick-stock-search-ui).
+* Run `npm install` command in the terminal, it will pull all dependencies in artifact repository.
+* Run `npm run start` command in the terminal, the application should be running on `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Home Page](/screen_shots/home_page.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Search results in Home Page](/screen_shots/search_stock_page.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Detail Page](/screen_shots/detail_page.png)
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Search results in Detail Page](/screen_shots/detail_page_search_results.png)
