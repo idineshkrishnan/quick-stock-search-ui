@@ -1,6 +1,6 @@
 #QuickStockSearch UI.
 
-The QuickStockSeach UI is an user interface for QuickStockSearch application, this is built using react framework.
+The QuickStockSearch UI is a user interface for QuickStockSearch application, this is built using react framework.
 
 ###Features
 
@@ -25,6 +25,8 @@ Please follow the below steps to run this application.
 * Checkout this repository and navigate to folder (quick-stock-search-ui).
 * Run `npm install` command in the terminal, it will pull all dependencies in artifact repository.
 * Run `npm run start` command in the terminal, the application should be running on `http://localhost:3000`.
+
+**NOTE:** *please find the below screenshots as a reference.*
 
 ![Home Page](/screen_shots/home_page.png)
 
