@@ -1,15 +1,15 @@
-#QuickStockSearch UI.
+# QuickStockSearch UI.
 
 The QuickStockSearch UI is a user interface for QuickStockSearch application, this is built using react framework.
 
-###Features
+### Features
 
 * Search Stock/Company
 * Get the details for stock and company based on the symbol value.
 * Shown alert if any error thrown.
 * Search box will show the possible company/stock name.
 
-###Software or component requirement
+### Software or component requirement
 
 * Node JS
 * React Framework
@@ -18,7 +18,7 @@ The QuickStockSearch UI is a user interface for QuickStockSearch application, th
 
 **NOTE:** *Without back-end or facade API, application will be error thrown or stuck*
 
-###How to run this application?
+### How to run this application?
 
 Please follow the below steps to run this application.
 
